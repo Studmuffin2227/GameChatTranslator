@@ -113,7 +113,7 @@ def startOcr(gui_queue, ocr_queue, ChatCoord,langs,targetLanguage,selectedGame):
             #     outputText.append(translated)#+'\n'
             print(translated)
             ocr_queue.put(translated)
-        time.sleep(2)
+        time.sleep(1)
         # print(outputText)
         # i=0
     # return outputText
